@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  MAP19_Localization
+
+  Created by David Svensson on 2020-02-14.
+  Copyright © 2020 David Svensson. All rights reserved.
+*/
+
+
+"newGreeting" = "Hoi";

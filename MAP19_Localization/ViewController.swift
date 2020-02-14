@@ -10,11 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var greetingLabel: UILabel!
+    
+  //  let newGreeting = "Enjoy the App"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        
+        
+        greetingLabel.text = NSLocalizedString("newGreeting", comment: "")
+        
+    }
+    
 }
 
